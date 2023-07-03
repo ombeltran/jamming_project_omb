@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.divMainChild{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.card{
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    width: 26rem;
+    min-height: 43rem;
+    background-color: black;
+    opacity: 0.8;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+input{
+    width: 16rem;
+    height: 2rem;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}
+
+img{
+    border-radius: 8px;
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+
+.results{
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.resultsListPesonal{
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.contentTrack{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.whiteLine{
+    border: 1px solid white;
+    margin-bottom: 0.5rem;
+}
+
+audio{
+    scale: 0.6;
+    margin-left: -3.7rem;
+
+}
+
