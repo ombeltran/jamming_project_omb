@@ -61,6 +61,12 @@ button{
     color: white;
     border: 1px solid white;
     background-color: black;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
 }
 
 img{
@@ -72,12 +78,12 @@ img{
 
 .results{
     margin-bottom: 2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .resultsListPesonal{
     margin-bottom: 2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .contentTrack{
@@ -104,3 +110,11 @@ audio{
 
 }
 
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    background-color: lightgray;
+}

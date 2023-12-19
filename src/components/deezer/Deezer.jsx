@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './Deezer.css';
+import '../styles.css';
 import ListGeneral from '../listGeneral/ListGeneral';
+import { Title } from '../Title/Title';
 
 const Deezer = () => {
   const [artist, setArtist] = useState([]);
@@ -13,7 +14,7 @@ const Deezer = () => {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'a3dd39d526mshf9302d3fb4cf41fp110067jsn6939127f2ec8',
+        'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
         'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
       }
     };
@@ -37,17 +38,21 @@ const Deezer = () => {
   };
 
   return (
-    <div className='divMain'>
-      <div className="divSub">
-        <form onSubmit={handleSubmit}>
-          <input type="text" value={artistName} onChange={handleInput} placeholder='Artist name' />
-          <button type='submit' >Search</button>
-        </form>
-        <div>
-          <ListGeneral artist={artist}/>
+    <>
+      <Title />
+      <div className='divMain'>
+        
+        <div className="divSub">
+          <form onSubmit={handleSubmit}>
+            <input type="text" value={artistName} onChange={handleInput} placeholder='Artist name' />
+            <button type='submit' >Search</button>
+          </form>
+          <div>
+            <ListGeneral artist={artist}/>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

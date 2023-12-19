@@ -20,7 +20,7 @@ const ListGeneral = ({ artist }) => {
           {artist.data && artist.data.length > 0? (
             <>             
               <div className='detail'>
-                <h2 className='results'>Results:</h2>
+                <h2 className='results'>Tracks:</h2>
                 {/* <img src={artist.data[0].artist.picture} alt={artist.data[0].title_short} /> */}
                 <h3>Artist: {artist.data[0].artist.name}</h3>
                 {artist.data.map((song) => (
@@ -37,13 +37,13 @@ const ListGeneral = ({ artist }) => {
             </>
           ): (
             <div className='detail'>
-              <h2 className='results'>Results:</h2>
+              <h2 className='results'>Tracks:</h2>
             </div>
           )}  
         </div>
         <div className="listPersonal">
           <div className="detail">
-            <h2 className='resultsListPesonal'>My music list:</h2>
+            <h2 className='resultsListPesonal'>Music list:</h2>
             {selectedSongs.map((song) => (
               <ListPersonal key={song.id} song={song} onDelete={handleDelete} />
             ))}
