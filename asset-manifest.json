@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jamming_project_omb/static/css/main.fb495a59.css",
+    "main.js": "/jamming_project_omb/static/js/main.2dc367f4.js",
+    "static/media/musica.jpg": "/jamming_project_omb/static/media/musica.4b365cd9b390baa3c82c.jpg",
+    "index.html": "/jamming_project_omb/index.html",
+    "main.fb495a59.css.map": "/jamming_project_omb/static/css/main.fb495a59.css.map",
+    "main.2dc367f4.js.map": "/jamming_project_omb/static/js/main.2dc367f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb495a59.css",
+    "static/js/main.2dc367f4.js"
+  ]
+}
