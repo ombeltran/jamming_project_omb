@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.02213dc3.css",
-    "main.js": "/static/js/main.2dc367f4.js",
-    "static/media/musica.jpg": "/static/media/musica.4b365cd9b390baa3c82c.jpg",
-    "index.html": "/index.html",
-    "main.02213dc3.css.map": "/static/css/main.02213dc3.css.map",
-    "main.2dc367f4.js.map": "/static/js/main.2dc367f4.js.map"
+    "main.css": "/jamming_project_omb/static/css/main.faf9f668.css",
+    "main.js": "/jamming_project_omb/static/js/main.578a4938.js",
+    "index.html": "/jamming_project_omb/index.html",
+    "main.faf9f668.css.map": "/jamming_project_omb/static/css/main.faf9f668.css.map",
+    "main.578a4938.js.map": "/jamming_project_omb/static/js/main.578a4938.js.map"
   },
   "entrypoints": [
-    "static/css/main.02213dc3.css",
-    "static/js/main.2dc367f4.js"
+    "static/css/main.faf9f668.css",
+    "static/js/main.578a4938.js"
   ]
 }

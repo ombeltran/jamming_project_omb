@@ -21,7 +21,6 @@ const ListGeneral = ({ artist }) => {
             <>             
               <div className='detail'>
                 <h2 className='results'>Tracks:</h2>
-                {/* <img src={artist.data[0].artist.picture} alt={artist.data[0].title_short} /> */}
                 <h3>Artist: {artist.data[0].artist.name}</h3>
                 {artist.data.map((song) => (
                   <div className="content" key={song.id}>

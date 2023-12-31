@@ -38,10 +38,9 @@ const Deezer = () => {
   };
 
   return (
-    <>
+    <div className='father'>
       <Title />
-      <div className='divMain'>
-        
+      <div className='divMain' >
         <div className="divSub">
           <form onSubmit={handleSubmit}>
             <input type="text" value={artistName} onChange={handleInput} placeholder='Artist name' />
@@ -52,7 +51,7 @@ const Deezer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
