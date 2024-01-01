@@ -137,8 +137,7 @@ audio {
 
 @media screen and (max-width: 565px) {
     .divMain{
-        /* padding-top: 6rem; */
-        margin-top: 6rem;
+        margin-top: 9rem;
     }
 
     .detail{
