@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/jamming_project_omb/static/css/main.f1dd38eb.css",
+    "main.css": "/jamming_project_omb/static/css/main.8da46781.css",
     "main.js": "/jamming_project_omb/static/js/main.578a4938.js",
     "index.html": "/jamming_project_omb/index.html",
-    "main.f1dd38eb.css.map": "/jamming_project_omb/static/css/main.f1dd38eb.css.map",
+    "main.8da46781.css.map": "/jamming_project_omb/static/css/main.8da46781.css.map",
     "main.578a4938.js.map": "/jamming_project_omb/static/js/main.578a4938.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1dd38eb.css",
+    "static/css/main.8da46781.css",
     "static/js/main.578a4938.js"
   ]
 }
